@@ -4,8 +4,8 @@ require_relative "test/version"
 
 module Ruby
   module Test
-                                class Error < StandardError; end
+                    class Error < StandardError; end
 
-                                # Your code goes here...
+                    # Your code goes here...
   end
 end
