@@ -16,3 +16,5 @@ jobs:
           ruby-version: 2.6.5
       - name: Run rubocop
         uses: Vinccool96/rubocop-linter@v1.0.1
+        with:
+          rubocop_extensions: ''
