@@ -1,6 +1,4 @@
-# frozen_string_literal: true
-
-require_relative "test/version"
+Dir["#{__dir__}/test/**/*.rb"].sort.each { |file| require file }
 
 module Ruby
   module Test
