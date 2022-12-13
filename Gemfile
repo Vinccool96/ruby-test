@@ -5,10 +5,13 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in ruby-test.gemspec
 gemspec
 
-gem "rake", "~> 13.0"
-
-gem "minitest", "~> 5.0"
+gem "rake"
 
 group :development do
   gem "rubocop"
+end
+
+group :development, :test do
+  gem "rspec"
+  gem "debase"
 end

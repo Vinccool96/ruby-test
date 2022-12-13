@@ -9,6 +9,7 @@ jobs:
     name: Run rubocop autofix
     runs-on: ubuntu-latest
     steps:
+      - name: Conditional
       - name: Checkout (Team App)
         uses: actions/checkout@v2
       - uses: ruby/setup-ruby@v1.101.0
