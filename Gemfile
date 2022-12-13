@@ -8,7 +8,7 @@ gemspec
 gem "rake"
 
 group :development do
-  gem "rubocop"
+  gem 'rubocop'
 end
 
 group :development, :test do
