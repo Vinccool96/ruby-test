@@ -9,9 +9,10 @@ gem "rake"
 
 group :development do
   gem 'rubocop'
+  gem 'ruby-debug-ide'
+  gem "debase"
 end
 
 group :development, :test do
   gem "rspec"
-  gem "debase"
 end
